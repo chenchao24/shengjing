@@ -1,0 +1,588 @@
+{
+  "articles": [
+    {
+      "id": "a1",
+      "title": "孩子发脾气时，家长如何做情绪接纳",
+      "type": "图文",
+      "tag": "情绪管理",
+      "summary": "用陪伴、命名情绪和稳定边界，帮助孩子更快恢复情绪平衡。",
+      "reads": 1291,
+      "status": "published",
+      "createdAt": "2026-05-13T10:20:00.000Z"
+    },
+    {
+      "id": "a2",
+      "title": "学习压力识别与家庭支持技巧",
+      "type": "视频",
+      "tag": "学习压力",
+      "summary": "从睡眠、回避和注意力变化识别预警信号，配合校园支持策略。",
+      "reads": 971,
+      "status": "published",
+      "createdAt": "2026-05-11T15:40:00.000Z"
+    },
+    {
+      "id": "a3",
+      "title": "专家讲座：多动症干预的家庭协同",
+      "type": "视频",
+      "tag": "专家讲座",
+      "summary": "行为训练、校园协作与门诊随访的完整思路，帮助家长少走弯路。",
+      "reads": 842,
+      "status": "published",
+      "createdAt": "2026-05-08T09:30:00.000Z"
+    },
+    {
+      "id": "a4",
+      "title": "门诊前如何帮助孩子减压",
+      "type": "视频",
+      "tag": "亲子沟通",
+      "summary": "减少就医抵触，让孩子理解看诊过程，提升家长沟通信心。",
+      "reads": 653,
+      "status": "published",
+      "createdAt": "2026-05-06T17:00:00.000Z"
+    },
+    {
+      "id": "a5",
+      "title": "儿童焦虑的早期信号识别",
+      "type": "图文",
+      "tag": "情绪管理",
+      "summary": "从睡眠、饮食和回避行为识别情绪问题，建立早期预警意识。",
+      "reads": 512,
+      "status": "published",
+      "createdAt": "2026-05-04T14:10:00.000Z"
+    },
+    {
+      "id": "a6",
+      "title": "青春期孩子的亲子沟通秘籍",
+      "type": "图文",
+      "tag": "亲子沟通",
+      "summary": "5 个实用沟通技巧，帮助家长与青春期孩子建立信任关系。",
+      "reads": 0,
+      "status": "draft",
+      "createdAt": "2026-05-14T11:00:00.000Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "刘敏",
+      "title": "主任医师",
+      "dept": "儿童心理门诊",
+      "skill": "儿童焦虑 / 情绪障碍",
+      "score": "4.9",
+      "intro": "擅长儿童焦虑、睡眠问题与家庭沟通指导。同时具备家庭访谈、量表评估和门诊随访经验，能为家长提供清晰的干预建议。"
+    },
+    {
+      "id": "2",
+      "name": "周岚",
+      "title": "副主任医师",
+      "dept": "发育行为门诊",
+      "skill": "多动症 / 学习困难",
+      "score": "4.8",
+      "intro": "长期从事多动症、注意缺陷和学习压力干预。擅长多学科联合评估，帮助家长制定家庭管理方案。"
+    },
+    {
+      "id": "3",
+      "name": "王璇",
+      "title": "主治医师",
+      "dept": "儿童心理咨询",
+      "skill": "社交退缩 / 青春期适应",
+      "score": "4.7",
+      "intro": "关注青春期心理发展、亲子关系和学校适应。擅长认知行为治疗，对拒学、社交回避有丰富的干预经验。"
+    }
+  ],
+  "slots": [
+    {
+      "id": "slot-1-2026-05-18-am",
+      "doctorId": "1",
+      "date": "2026-05-18",
+      "period": "am",
+      "time": "09:30",
+      "total": 18,
+      "remain": 16
+    },
+    {
+      "id": "slot-1-2026-05-18-pm",
+      "doctorId": "1",
+      "date": "2026-05-18",
+      "period": "pm",
+      "time": "14:00",
+      "total": 12,
+      "remain": 12
+    },
+    {
+      "id": "slot-1-2026-05-19-am",
+      "doctorId": "1",
+      "date": "2026-05-19",
+      "period": "am",
+      "time": "09:30",
+      "total": 18,
+      "remain": 18
+    },
+    {
+      "id": "slot-1-2026-05-19-pm",
+      "doctorId": "1",
+      "date": "2026-05-19",
+      "period": "pm",
+      "time": "14:00",
+      "total": 12,
+      "remain": 10
+    },
+    {
+      "id": "slot-1-2026-05-20-am",
+      "doctorId": "1",
+      "date": "2026-05-20",
+      "period": "am",
+      "time": "09:30",
+      "total": 18,
+      "remain": 15
+    },
+    {
+      "id": "slot-1-2026-05-20-pm",
+      "doctorId": "1",
+      "date": "2026-05-20",
+      "period": "pm",
+      "time": "14:00",
+      "total": 12,
+      "remain": 12
+    },
+    {
+      "id": "slot-1-2026-05-21-am",
+      "doctorId": "1",
+      "date": "2026-05-21",
+      "period": "am",
+      "time": "09:30",
+      "total": 18,
+      "remain": 16
+    },
+    {
+      "id": "slot-1-2026-05-21-pm",
+      "doctorId": "1",
+      "date": "2026-05-21",
+      "period": "pm",
+      "time": "14:00",
+      "total": 12,
+      "remain": 11
+    },
+    {
+      "id": "slot-1-2026-05-22-am",
+      "doctorId": "1",
+      "date": "2026-05-22",
+      "period": "am",
+      "time": "09:30",
+      "total": 18,
+      "remain": 18
+    },
+    {
+      "id": "slot-1-2026-05-22-pm",
+      "doctorId": "1",
+      "date": "2026-05-22",
+      "period": "pm",
+      "time": "14:00",
+      "total": 12,
+      "remain": 12
+    },
+    {
+      "id": "slot-1-2026-05-23-am",
+      "doctorId": "1",
+      "date": "2026-05-23",
+      "period": "am",
+      "time": "09:30",
+      "total": 10,
+      "remain": 10
+    },
+    {
+      "id": "slot-1-2026-05-23-pm",
+      "doctorId": "1",
+      "date": "2026-05-23",
+      "period": "pm",
+      "time": "14:00",
+      "total": 10,
+      "remain": 10
+    },
+    {
+      "id": "slot-1-2026-05-24-am",
+      "doctorId": "1",
+      "date": "2026-05-24",
+      "period": "am",
+      "time": "09:30",
+      "total": 0,
+      "remain": 0
+    },
+    {
+      "id": "slot-1-2026-05-24-pm",
+      "doctorId": "1",
+      "date": "2026-05-24",
+      "period": "pm",
+      "time": "14:00",
+      "total": 0,
+      "remain": 0
+    },
+    {
+      "id": "slot-2-2026-05-18-am",
+      "doctorId": "2",
+      "date": "2026-05-18",
+      "period": "am",
+      "time": "09:00",
+      "total": 15,
+      "remain": 15
+    },
+    {
+      "id": "slot-2-2026-05-18-pm",
+      "doctorId": "2",
+      "date": "2026-05-18",
+      "period": "pm",
+      "time": "14:00",
+      "total": 10,
+      "remain": 9
+    },
+    {
+      "id": "slot-2-2026-05-19-am",
+      "doctorId": "2",
+      "date": "2026-05-19",
+      "period": "am",
+      "time": "09:00",
+      "total": 15,
+      "remain": 13
+    },
+    {
+      "id": "slot-2-2026-05-19-pm",
+      "doctorId": "2",
+      "date": "2026-05-19",
+      "period": "pm",
+      "time": "14:00",
+      "total": 10,
+      "remain": 10
+    },
+    {
+      "id": "slot-2-2026-05-20-am",
+      "doctorId": "2",
+      "date": "2026-05-20",
+      "period": "am",
+      "time": "09:00",
+      "total": 15,
+      "remain": 15
+    },
+    {
+      "id": "slot-2-2026-05-20-pm",
+      "doctorId": "2",
+      "date": "2026-05-20",
+      "period": "pm",
+      "time": "14:00",
+      "total": 10,
+      "remain": 8
+    },
+    {
+      "id": "slot-2-2026-05-21-am",
+      "doctorId": "2",
+      "date": "2026-05-21",
+      "period": "am",
+      "time": "09:00",
+      "total": 15,
+      "remain": 15
+    },
+    {
+      "id": "slot-2-2026-05-21-pm",
+      "doctorId": "2",
+      "date": "2026-05-21",
+      "period": "pm",
+      "time": "14:00",
+      "total": 10,
+      "remain": 10
+    },
+    {
+      "id": "slot-2-2026-05-22-am",
+      "doctorId": "2",
+      "date": "2026-05-22",
+      "period": "am",
+      "time": "09:00",
+      "total": 15,
+      "remain": 15
+    },
+    {
+      "id": "slot-2-2026-05-22-pm",
+      "doctorId": "2",
+      "date": "2026-05-22",
+      "period": "pm",
+      "time": "14:00",
+      "total": 10,
+      "remain": 10
+    },
+    {
+      "id": "slot-2-2026-05-23-am",
+      "doctorId": "2",
+      "date": "2026-05-23",
+      "period": "am",
+      "time": "09:00",
+      "total": 8,
+      "remain": 8
+    },
+    {
+      "id": "slot-2-2026-05-23-pm",
+      "doctorId": "2",
+      "date": "2026-05-23",
+      "period": "pm",
+      "time": "14:00",
+      "total": 8,
+      "remain": 8
+    },
+    {
+      "id": "slot-2-2026-05-24-am",
+      "doctorId": "2",
+      "date": "2026-05-24",
+      "period": "am",
+      "time": "09:00",
+      "total": 0,
+      "remain": 0
+    },
+    {
+      "id": "slot-2-2026-05-24-pm",
+      "doctorId": "2",
+      "date": "2026-05-24",
+      "period": "pm",
+      "time": "14:00",
+      "total": 0,
+      "remain": 0
+    },
+    {
+      "id": "slot-3-2026-05-18-am",
+      "doctorId": "3",
+      "date": "2026-05-18",
+      "period": "am",
+      "time": "10:00",
+      "total": 12,
+      "remain": 12
+    },
+    {
+      "id": "slot-3-2026-05-18-pm",
+      "doctorId": "3",
+      "date": "2026-05-18",
+      "period": "pm",
+      "time": "15:00",
+      "total": 8,
+      "remain": 7
+    },
+    {
+      "id": "slot-3-2026-05-19-am",
+      "doctorId": "3",
+      "date": "2026-05-19",
+      "period": "am",
+      "time": "10:00",
+      "total": 12,
+      "remain": 10
+    },
+    {
+      "id": "slot-3-2026-05-19-pm",
+      "doctorId": "3",
+      "date": "2026-05-19",
+      "period": "pm",
+      "time": "15:00",
+      "total": 8,
+      "remain": 8
+    },
+    {
+      "id": "slot-3-2026-05-20-am",
+      "doctorId": "3",
+      "date": "2026-05-20",
+      "period": "am",
+      "time": "10:00",
+      "total": 12,
+      "remain": 12
+    },
+    {
+      "id": "slot-3-2026-05-20-pm",
+      "doctorId": "3",
+      "date": "2026-05-20",
+      "period": "pm",
+      "time": "15:00",
+      "total": 8,
+      "remain": 6
+    },
+    {
+      "id": "slot-3-2026-05-21-am",
+      "doctorId": "3",
+      "date": "2026-05-21",
+      "period": "am",
+      "time": "10:00",
+      "total": 12,
+      "remain": 12
+    },
+    {
+      "id": "slot-3-2026-05-21-pm",
+      "doctorId": "3",
+      "date": "2026-05-21",
+      "period": "pm",
+      "time": "15:00",
+      "total": 8,
+      "remain": 8
+    },
+    {
+      "id": "slot-3-2026-05-22-am",
+      "doctorId": "3",
+      "date": "2026-05-22",
+      "period": "am",
+      "time": "10:00",
+      "total": 12,
+      "remain": 12
+    },
+    {
+      "id": "slot-3-2026-05-22-pm",
+      "doctorId": "3",
+      "date": "2026-05-22",
+      "period": "pm",
+      "time": "15:00",
+      "total": 8,
+      "remain": 8
+    },
+    {
+      "id": "slot-3-2026-05-23-am",
+      "doctorId": "3",
+      "date": "2026-05-23",
+      "period": "am",
+      "time": "10:00",
+      "total": 6,
+      "remain": 6
+    },
+    {
+      "id": "slot-3-2026-05-23-pm",
+      "doctorId": "3",
+      "date": "2026-05-23",
+      "period": "pm",
+      "time": "15:00",
+      "total": 6,
+      "remain": 6
+    },
+    {
+      "id": "slot-3-2026-05-24-am",
+      "doctorId": "3",
+      "date": "2026-05-24",
+      "period": "am",
+      "time": "10:00",
+      "total": 0,
+      "remain": 0
+    },
+    {
+      "id": "slot-3-2026-05-24-pm",
+      "doctorId": "3",
+      "date": "2026-05-24",
+      "period": "pm",
+      "time": "15:00",
+      "total": 0,
+      "remain": 0
+    }
+  ],
+  "appointments": [
+    {
+      "id": "SJ20260515001",
+      "userId": "demo-user",
+      "doctorId": "1",
+      "slotId": "slot-1-2026-05-18-am",
+      "childName": "沈小安",
+      "age": "8",
+      "symptoms": "最近 2 周早晨抗拒上学，睡前情绪紧张，频繁说肚子疼。",
+      "status": "pending",
+      "createdAt": "2026-05-15T08:30:00.000Z"
+    },
+    {
+      "id": "SJ20260514002",
+      "userId": "demo-user",
+      "doctorId": "2",
+      "slotId": "slot-2-2026-05-18-pm",
+      "childName": "沈小安",
+      "age": "8",
+      "symptoms": "注意力不集中，上课发呆，作业完成质量下降。",
+      "status": "completed",
+      "createdAt": "2026-05-07T14:00:00.000Z"
+    },
+    {
+      "id": "SJ20260513003",
+      "userId": "demo-user",
+      "doctorId": "3",
+      "slotId": "slot-3-2026-05-18-pm",
+      "childName": "沈小安",
+      "age": "8",
+      "symptoms": "不愿意和同学交流，课间总是一个人待着。",
+      "status": "cancelled",
+      "createdAt": "2026-05-13T10:00:00.000Z"
+    },
+    {
+      "id": "SJ1778825648391",
+      "userId": "demo-user",
+      "doctorId": "1",
+      "slotId": "slot-1-2026-05-18-am",
+      "childName": "????",
+      "age": "7",
+      "symptoms": "????",
+      "status": "pending",
+      "createdAt": "2026-05-15T06:14:08.392Z"
+    },
+    {
+      "id": "SJ1778825708858",
+      "userId": "demo-user",
+      "doctorId": "1",
+      "slotId": "slot-1-2026-05-21-am",
+      "childName": "沈小安",
+      "age": "8 岁",
+      "symptoms": "最近 2 周早晨抗拒上学，睡前情绪紧张，频繁说肚子疼。",
+      "status": "pending",
+      "createdAt": "2026-05-15T06:15:08.858Z"
+    },
+    {
+      "id": "SJ1779086167690",
+      "userId": "demo-user",
+      "doctorId": "1",
+      "slotId": "slot-1-2026-05-19-am",
+      "childName": "沈小安",
+      "age": "8 岁",
+      "symptoms": "最近 2 周早晨抗拒上学，睡前情绪紧张，频繁说肚子疼。",
+      "status": "cancelled",
+      "createdAt": "2026-05-18T06:36:07.690Z"
+    },
+    {
+      "id": "SJ1779086689389",
+      "userId": "demo-user",
+      "doctorId": "1",
+      "slotId": "slot-1-2026-05-21-am",
+      "childName": "沈小安",
+      "age": "8 岁",
+      "symptoms": "最近 2 周早晨抗拒上学，睡前情绪紧张，频繁说肚子疼。",
+      "status": "pending",
+      "createdAt": "2026-05-18T06:44:49.389Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "fav1",
+      "articleId": "a1",
+      "userId": "demo-user",
+      "title": "孩子发脾气时，家长如何做情绪接纳",
+      "type": "图文",
+      "desc": "用陪伴、命名情绪和稳定边界，帮助孩子更快恢复。"
+    },
+    {
+      "id": "fav2",
+      "articleId": "a4",
+      "userId": "demo-user",
+      "title": "门诊前如何帮助孩子减压",
+      "type": "视频",
+      "desc": "减少就医抵触，让孩子理解看诊过程。"
+    },
+    {
+      "id": "fav1779058685557",
+      "articleId": "a2",
+      "userId": "demo-user",
+      "title": "学习压力识别与家庭支持技巧",
+      "type": "视频",
+      "desc": "从睡眠、回避和注意力变化识别预警信号，配合校园支持策略。",
+      "createdAt": "2026-05-17T22:58:05.558Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "demo-user",
+      "name": "沈妈妈",
+      "phone": "138****8888",
+      "childName": "沈小安",
+      "childAge": 8
+    }
+  ]
+}
