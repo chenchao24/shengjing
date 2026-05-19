@@ -1,0 +1,10 @@
+{
+  "name": "shengjing-demo",
+  "version": "1.0.0",
+  "description": "沈阳盛京医疗联盟 · 儿童心理健康服务系统演示",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {}
+}
