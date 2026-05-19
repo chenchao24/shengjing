@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>儿童心理健康服务系统 · 沈阳盛京医疗联盟</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+  <!-- 侧边栏 -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">系统名称</span>
+      </div>
+      <button class="sidebar-toggle" id="sidebarToggle" title="折叠菜单">&#9776;</button>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav">
+      <!-- 由 js/nav.js 动态渲染 -->
+    </nav>
+    <div class="sidebar-footer">
+      <div class="user-info">
+        <div class="avatar">王</div>
+        <div class="user-meta">
+          <span class="user-name">王晓峰</span>
+          <span class="user-role">系统管理员</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 主区域 -->
+  <div class="main-wrapper">
+    <!-- 顶部导航 -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <nav class="breadcrumb" id="breadcrumb">
+          <span>首页</span>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-date" id="topbarDate"></span>
+        <button class="icon-btn" title="通知">
+          <span class="badge">3</span>🔔
+        </button>
+        <button class="icon-btn" title="全屏" id="fullscreenBtn">⛶</button>
+      </div>
+    </header>
+
+    <!-- 页面内容区 -->
+    <main class="page-content" id="pageContent">
+      <!-- 页面由 js/router.js 动态加载 -->
+    </main>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
