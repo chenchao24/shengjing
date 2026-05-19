@@ -1,0 +1,47 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --primary:       #3f8fca;
+  --primary-light: #eaf6ff;
+  --primary-dark:  #2d6f9f;
+  --accent:        #4db69f;
+  --danger:        #f5425d;
+  --warning:       #f0a53a;
+  --info:          #53b5dd;
+
+  --bg:            #f5fafc;
+  --bg-card:       #ffffff;
+  --sidebar-bg:    #16445a;
+  --sidebar-text:  #b5cfdb;
+  --sidebar-active:#ffffff;
+
+  --text:          #213547;
+  --text-muted:    #6e8594;
+  --border:        #dce9ef;
+
+  --sidebar-w:     220px;
+  --topbar-h:      56px;
+  --radius:        14px;
+  --shadow:        0 8px 24px rgba(26, 82, 105, .08);
+  --transition:    .2s ease;
+}
+
+html, body {
+  height: 100%;
+  font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+  font-size: 14px;
+  color: var(--text);
+  background: radial-gradient(circle at top left, #edf7f8, #f8fbfd 45%, #f2f7fb 100%);
+  overflow: hidden;
+}
+
+a { color: var(--primary); text-decoration: none; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; font-size: inherit; }
+ul, ol { list-style: none; }
+img { max-width: 100%; display: block; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d0d5e8; border-radius: 3px; }
